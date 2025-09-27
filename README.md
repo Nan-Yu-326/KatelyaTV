@@ -14,6 +14,24 @@
   </p>
 </div>
 
+## 🚀 一键部署
+
+点击下面按钮，一键部署到 Vercel：
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nan-Yu-326/KatelyaTV&build-command=pnpm%20build&install-command=pnpm%20install&output-directory=dist)
+
+**Vercel手动详细部署方法**
+- Fork 或克隆本仓库到您的 GitHub/GitLab 账户
+- 登录 Vercel，点击 "New Project"
+- 导入您的仓库
+- 在 "Build & Output Settings" 中配置：
+  - Install Command：`pnpm install`
+  - Build Command：`pnpm build`
+  - Output Directory：`dist`
+- ⚠️ 重要：在 "Settings" > "Environment Variables" 中添加 `VITE_PROXY_URL`，值为 `/api/proxy?url=`
+- 点击 "Deploy"
+
+
 ## 📰 项目来源与声明
 
 本项目自「MoonTV」演进而来，为其二创/继承版本，持续维护与改进功能与体验。保留并致谢原作者与社区贡献者；如有授权或版权问题请联系以处理。目标：在原作基础上提供更易部署、更友好、更稳定的体验。
