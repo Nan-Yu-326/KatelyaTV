@@ -20,17 +20,6 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nan-Yu-326/KatelyaTV&build-command=pnpm%20build&install-command=pnpm%20install&output-directory=dist)
 
-**Vercel手动详细部署方法**
-- Fork 或克隆本仓库到您的 GitHub/GitLab 账户
-- 登录 Vercel，点击 "New Project"
-- 导入您的仓库
-- 在 "Build & Output Settings" 中配置：
-  - Install Command：`pnpm install`
-  - Build Command：`pnpm build`
-  - Output Directory：`dist`
-- ⚠️ 重要：在 "Settings" > "Environment Variables" 中添加 `VITE_PROXY_URL`，值为 `/api/proxy?url=`
-- 点击 "Deploy"
-
 
 ## 📰 项目来源与声明
 
